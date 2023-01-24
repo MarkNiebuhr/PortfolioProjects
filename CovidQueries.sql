@@ -10,7 +10,7 @@ order by 3,4
 
 
 
--- Root field for mortality queries
+-- Root fields for mortality queries
 select location, date, total_cases, new_cases, total_deaths, population
 from dbo.CovidDeaths
 order by 1, 2
